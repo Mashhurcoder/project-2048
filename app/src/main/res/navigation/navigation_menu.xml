@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_menu"
+    app:startDestination="@id/menuScreen">
+
+    <fragment
+        android:id="@+id/menuScreen"
+        android:name="com.mashhurbek.my2048game.screen.menuscreen.MenuScreen"
+        android:label="MenuScreen"
+        tools:layout="@layout/menu_fragment">
+        <action
+            android:id="@+id/action_menuScreen_to_gameScreen"
+            app:destination="@id/gameScreen" />
+        <action
+            android:id="@+id/action_menuScreen_to_infoScreen"
+            app:destination="@id/infoScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameScreen"
+        android:name="com.mashhurbek.my2048game.screen.gamescreen.GameScreen"
+        android:label="GameScreen"
+        tools:layout="@layout/game_screen" />
+    <fragment
+        android:id="@+id/infoScreen"
+        android:name="com.mashhurbek.my2048game.screen.infoScreen.InfoScreen"
+        android:label="InfoScreen"
+        tools:layout="@layout/info_screen" />
+</navigation>
