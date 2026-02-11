@@ -1,7 +1,7 @@
 
  <img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/2c5c190d-ac2c-4591-bcd7-88d21e4bc2a8" />
 <img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/d49d7bac-ede5-476d-8ea8-dd56d5f2db83" />
-<img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/eac4a5f1-1d99-4307-9bfb-82c6ee2e0e4b" />
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/eac4a5f1-1d99-4307-9bfb-82c6ee2e0e4b" />
 
  
  
@@ -57,4 +57,5 @@ app/
  │    │         ├── anim/ (Kirish animatsiyalari)
  │    │         ├── layout/ (O'yin va About oynalari)
  │    │         └── values/ (Ranglar va matnlar)
+
 
